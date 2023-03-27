@@ -11,8 +11,14 @@ public class Main {
             Student student = new Student(name);
             people[i] = student;
         }
-
         System.out.println(Arrays.toString(people));
+
+        for (int i = 0; i < people.length; i++) {
+            if (people[i].rate >8){
+                System.out.println(people[i]);
+            }
+        }
+
 
     }
 }
