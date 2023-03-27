@@ -3,8 +3,11 @@ public class CreditCard {
     int currentCount;
 
     void addMoney(int money){
-        cardNumber = cardNumber + money;
+        currentCount = currentCount + money;
     }
 
+    void getMoney(int money){
+        currentCount = currentCount - money;
+    }
 
 }
