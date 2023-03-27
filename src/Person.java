@@ -15,7 +15,7 @@ public class Person {
     }
 
     Person(String n, int a) {
-        name = n;
-        age = a;
+        this.name = n;
+        this.age = a;
     }
 }
