@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        Person tom;
-        tom = new Person();
+        Person bob = new Person();
+        bob.displayInfo();
 
-        //
-        tom.name = "Tom";
-        tom.age = 36;
-
+        Person tom = new Person("Tom");
         tom.displayInfo();
+
+        Person sam = new Person("Sam", 26);
+        sam.displayInfo();
+
     }
 }
