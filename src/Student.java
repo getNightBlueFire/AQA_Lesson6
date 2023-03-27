@@ -1,12 +1,14 @@
+import java.util.Random;
+
 public class Student {
     String name;
     String group;
-    float rate;
-
-    public Student(String name, String group, float rate) {
+    int rate;
+    Random r = new Random();
+    public Student(String name) {
         this.name = name;
-        this.group = group;
-        this.rate = rate;
+        this.group = "AQA_Lesson6";
+        this.rate = r.nextInt(1,11);
     }
 
     @Override

@@ -8,9 +8,7 @@ public class Main {
         Student[] people = new Student[14];
         for (int i = 0; i < people.length; i++) {
             String name = sc.nextLine();
-            String group = sc.nextLine();
-            float rate = sc.nextFloat();
-            Student student = new Student(name, group, rate);
+            Student student = new Student(name);
             people[i] = student;
         }
 
