@@ -7,13 +7,11 @@ public class Person {
     }
 
     Person() {
-        name = "NoName";
-        age = 18;
+        this("NoName", 18);
     }
 
     Person(String n) {
-        name = n;
-        age = 18;
+        this(n, 18);
     }
 
     Person(String n, int a) {
