@@ -9,5 +9,8 @@ public class CreditCard {
     void getMoney(int money){
         currentCount = currentCount - money;
     }
+    void display(){
+        System.out.println("current money:" + cardNumber);
+    }
 
 }
